@@ -1,14 +1,415 @@
+/*CSS Galeri dan gambar*/
 .gallery{
     margin:10px 50px;    
 }
 
 .gallery img{
     transition: 1s;
-    padding: 15px;
-    height: 200px;
+    padding: 10px;
+    height: 180px;
+
 }
 
 .gallery img:hover{
     filter: grayscale(100%);
     transform: scale(1.1);
 }
+
+/*Batas CSS Galeri dan gambar*/
+
+
+
+/*Start Body*/
+body{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 1.5em;
+    margin:0;
+    padding:0;
+
+}
+/*Batas Body*/
+
+/*Start Debug*/
+.bg-black{
+    background-color:#28b560;
+}
+
+.bg-red{
+    background-color: rgb(218, 79, 98);
+}
+/*Batas Debug*/
+
+/*Container*/
+.container{
+    margin:10px auto;
+    overflow: auto;
+    width: 85%;
+}
+
+.container-full{
+    margin:10px auto;
+    overflow: auto;
+    width: 100%;
+}
+
+/*Container untuk galeri diberanda*/
+.container-art{
+    margin:10px auto;
+    overflow: auto;
+    width: 90%;
+    
+    
+}
+/*Batas Container*/
+
+/*Start Logo*/
+.logo{
+    text-align: center;
+}
+/*End Logo*/
+
+
+/*Start Anchor / hyperlink */
+a:link,
+a:visited{
+    color: rgb(80, 105, 214);
+    text-decoration: none;
+}
+
+a:hover,
+a:active{
+    color:#28b560;
+    text-decoration: underline;
+}
+/*End Anchor / hyperlink */
+
+
+/*Start Menu Primer*/
+.menu-primer ul{
+    text-align: center;
+    background-color: #333333;
+    border-radius: 4px;
+    box-shadow:
+    0 3px 5px -1px rgba(0, 0, 0, .2),
+    0 6px 10px 0px rgba(0, 0, 0, .14),
+    0 1px 18px 0px rgba(0, 0, 0, .12);
+}
+
+.menu-primer li{   
+    display:inline-block;
+
+}
+
+.menu-primer a{
+    color:#ffff;
+    font-size: 15px;
+    display:inline-block;
+    letter-spacing: 1px;
+    padding:10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+
+.menu-primer a:hover{
+    background-color: #12c700;
+    text-decoration: none;    
+}
+
+.menu-primer .active{
+    background-color:#ffc107;
+    text-decoration: none;
+    
+}
+/*End Menu Primer*/
+
+
+/*Start Heading*/
+h1,h2,h3,h4,h5,h6{
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+h1{
+    font-size: 28px;
+}
+h2{
+    font-size: 24px;
+}
+h3{
+    font-size: 18px;
+}
+h4{
+    font-size: 16px;
+}
+h5{
+    font-size: 14px;
+}
+h6{
+    font-size: 13px;
+}
+
+/*End Heading*/
+
+
+/*Start Jumbotron*/
+.jumbotron{
+    background-color: #12c700;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 6px;
+    padding:20px 20px;
+    text-align: center;
+    color: #ffff;
+}
+
+.jumbotron2{
+    background-color: #64dd17;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 6px;
+    padding:20px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.jumbotron h1{
+    font-size: 32px;
+    padding: 0 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.jumbotron h3{
+    font-size: 20px;
+    padding: 0 20px;
+}
+/*End Jumbotron*/
+
+
+/*Start Main Download & Story*/
+.main-home-one{
+    float: left;
+    width: 49.5%;
+    text-align: center;
+    
+}
+
+.main-home-two{
+    float: right;
+    width: 49.5%;
+    text-align: center;
+}
+
+.main-home-one .box-isi,
+.main-home-two .box-isi{
+    height:80;
+}
+/*Batas*/
+
+/*Start Story page*/
+.story-one{
+    float: left;
+}
+
+.story-two{
+    float:right;
+}
+
+.story-one,
+.story-two{
+    width:48%;
+    border:1px solid #e0dfdf;
+    text-align: center;
+    padding:10px 10px;
+    box-shadow:
+    0 3px 5px -1px rgba(0, 0, 0, .2),
+    0 6px 10px 0px rgba(0, 0, 0, .14),
+    0 1px 18px 0px rgba(0, 0, 0, .12);
+}
+
+.story-one h4,
+.story-two h4{
+    font-size:25px;
+    background-color: #aeea00;
+    padding:20px 20px;
+    color:#fff;
+    box-shadow:
+    0 3px 5px -1px rgba(0, 0, 0, .2),
+    0 6px 10px 0px rgba(0, 0, 0, .14),
+    0 1px 18px 0px rgba(0, 0, 0, .12);
+
+}
+/*Batas Story page*/
+
+
+
+/*Galeri Page*/
+.gallery-one h4{
+    font-size:30px;
+    text-align: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+    padding:20px 20px;
+    border-bottom: 2px solid #333333;
+    background-color: #333333;
+    margin:0;
+}
+
+.gallery-one{
+    text-align:center;
+    border:1px solid #e6e6e6;
+    box-shadow:
+    0 3px 5px -1px rgba(0, 0, 0, .2),
+    0 6px 10px 0px rgba(0, 0, 0, .14),
+    0 1px 18px 0px rgba(0, 0, 0, .12);
+}
+
+/*Batas Galeri Page*/
+
+
+
+/*Start Box Heading*/
+.box-heading{
+    background-color: #aeea00;
+    border:1px solid #d1d5da;
+    border-radius: 3px 3px 0 0;
+    padding: 5px 10px;
+    margin:0;
+    text-transform: uppercase;
+    color:#fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.box-heading h4{
+    font-size: 24px;
+}
+
+.box-isi{
+    background-color: #ffff;
+    border:1px solid #d1d5da;
+    border-top:0;
+    padding: 10px 20px;
+    margin:0;
+}
+
+/*End Box */
+
+
+/*Download page*/
+.halaman-unduh{
+    text-align: center;
+}
+
+.halaman-unduh h4{
+    font-size: 30px;
+}
+
+.halaman-unduh p{
+    margin: 0;
+}
+/*Batas Donwload page*/
+
+
+/*Halaman Comic*/
+.halaman-comic h3{
+    margin:0;
+    font-size: 30px;
+    padding:10px 20px;
+    text-align: right;
+    background-color: #333333;
+    color:#fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.halaman-comic{
+    border:1px solid #d1d5da;
+    box-shadow:
+    0 3px 5px -1px rgba(0, 0, 0, .2),
+    0 6px 10px 0px rgba(0, 0, 0, .14),
+    0 1px 18px 0px rgba(0, 0, 0, .12);
+
+}
+
+.halaman-comic p{
+    padding:10px 10px;
+    margin:0;
+    background-color: #8b8b8b;
+    text-align: right;
+    color:#ffff;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.halaman-comic img{
+    padding:10px;
+    margin:0;
+}
+/*Batas Halaman Comic*/
+
+
+
+/*Menu Sekunder */
+.menu-sekunder{
+    background-color: #333333;
+    border-bottom:1px solid #eaecef;
+    border-top: 1px solid #eaecef;
+    overflow: auto;
+    padding: 10px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.menu-sekunder h4{
+    font-size: 14px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    color: #ccff90;
+    
+}
+
+.menu-sekunder ul{
+    padding: 0;
+}
+
+.menu-sekunder li{
+    list-style: disc;
+}
+
+.menu-sekunder li a,
+.menu-sekunder p{
+    color: #fff;
+    font-size:15px;
+}
+
+
+.menu-sekunder-one,
+.menu-sekunder-two,
+.menu-sekunder-three{
+    float: left;
+}
+
+.menu-sekunder-one{
+    width: 40%;
+}
+
+.menu-sekunder-two,
+.menu-sekunder-three{
+    width: 30%;
+}
+
+.menu-sekunder li img{
+    vertical-align: middle;
+
+}.menu-sekunder-one a{
+    color:#fff;
+}
+
+/*Batas Menu Sekunder */
+
+
+/*Copyright*/
+.copyright{
+    font-size: 15px;
+}
+/*Batas Copyright*/
+
+
+/*CSS Halaman About*/
