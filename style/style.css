@@ -20,13 +20,14 @@
 
 
 /*Start Body*/
-body{
+body{    
     color:black;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
     line-height: 1.5em;
     margin:0;
     padding:0;
+
 
 }
 /*Batas Body*/
@@ -297,6 +298,11 @@ h6{
 /*Download page*/
 .halaman-unduh{
     text-align: center;
+    border: 1px solid #8b8b8b;
+    box-shadow:
+    0 3px 5px -1px rgba(0, 0, 0, .2),
+    0 6px 10px 0px rgba(0, 0, 0, .14),
+    0 1px 18px 0px rgba(0, 0, 0, .12);
 }
 
 .halaman-unduh h4{
@@ -305,7 +311,20 @@ h6{
 
 .halaman-unduh p{
     margin: 0;
+    padding:10px;
 }
+
+.halaman-unduh h4{
+    background-color: #333333;
+    color:#fff;
+    padding:20px;
+    width:40%;
+    box-shadow:
+    0 3px 5px -1px rgba(0, 0, 0, .2),
+    0 6px 10px 0px rgba(0, 0, 0, .14),
+    0 1px 18px 0px rgba(0, 0, 0, .12);
+}
+
 /*Batas Donwload page*/
 
 
@@ -413,3 +432,33 @@ h6{
 
 
 /*CSS Halaman About*/
+.tentang{
+    text-align: center;
+    font-size: 19px;
+    background-color: #fffdfd;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+
+.tentang h2{
+    background-color: #e2f0d0;
+    margin:0;
+    padding:20px;
+    text-align: center;
+    box-shadow:
+    0 3px 5px -1px rgba(0, 0, 0, .2),
+    0 6px 10px 0px rgba(0, 0, 0, .14),
+    0 1px 18px 0px rgba(0, 0, 0, .12);
+}
+
+.tentang img{
+    margin-top:20px;
+}
+
+.tentang p{
+    padding:10px 20px;
+ 
+}
+
+/*Batas CSS Halaman About*/
